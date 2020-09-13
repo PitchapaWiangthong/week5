@@ -8,7 +8,7 @@ int main()
     {
         for (i = 1; i <= n; i++)
             printf(" ");
-        n--;
+            n--;
         for (i = 1; i <= 2 * x - 1; i++)
             printf("*");
         printf("\n");
@@ -18,7 +18,7 @@ int main()
     {
         for (i = 1; i <= n; i++)
             printf(" ");
-        n++;
+            n++;
         for (i = 1; i <= 2 * (number - x) - 1; i++)
             printf("*");
         printf("\n");
